@@ -1,0 +1,30 @@
+﻿body {
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-preview-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #eee;
+}
+
+.img-upload-action {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 30px;
+    background: #000;
+    opacity: 0.5;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+
+.view-img-upload {
+    display: none;
+}
