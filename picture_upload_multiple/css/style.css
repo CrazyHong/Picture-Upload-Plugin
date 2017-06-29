@@ -1,0 +1,104 @@
+body {
+    background: #f3f4f5;
+    color: #3b3b3b;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+button:hover, button:focus, button:active,
+.btn:hover, .btn:focus, .btn:active, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
+    outline: none;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+}
+
+.image-upload-view a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-upload-view img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.image-upload-view > li {
+    float: left;
+    width: 118px;
+    height: 118px;
+    line-height: 116px;
+    margin-right: 22px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.image-upload-view .view-act-add {
+    font-size: 60px;
+    color: #e0e0e0;
+    line-height: 108px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+    .image-upload-view .view-act-add:hover,
+    .image-upload-view .view-act-add:focus {
+        color: #adadad;
+    }
+
+    .image-upload-view .view-act-add:active {
+        color: #e0e0e0;
+    }
+
+.image-upload-view .view-act-del {
+    position: absolute;
+    line-height: 30px;
+    background: #000;
+    opacity: 0.6;
+    width: 100%;
+    color: #fff;
+    left: 0;
+    bottom: -30px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.image-upload-view .view-act-preview:hover .view-act-del {
+    bottom: 0;
+}
+
+.img-upload-msg {
+    margin: 0;
+    line-height: 36px;
+    color: #f3b98e;
+}
+
+    .img-upload-msg a {
+        color: #63a5ff;
+        margin-left: 20px;
+    }
+
+        .img-upload-msg a:hover,
+        .img-upload-msg a:focus,
+        .img-upload-msg a:active {
+            color: #3088ff;
+        }
+
+
